@@ -10,7 +10,7 @@ const options = [
 ];
 
 const App = () => {
-  const [currentPlan, setCurrentPlan] = useState([{ key: 0, plan: "", price: "" }]);
+  const [currentPlan, setCurrentPlan] = useState({});
 
   const changeHandler = (e) => {
     setCurrentPlan(options[e.target.value])
