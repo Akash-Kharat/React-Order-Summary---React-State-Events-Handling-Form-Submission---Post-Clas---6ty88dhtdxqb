@@ -17,7 +17,7 @@ const App = () => {
   };
 
   const submitHandler = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
   };
 
   return (
